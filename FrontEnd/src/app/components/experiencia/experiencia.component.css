@@ -2,8 +2,12 @@
     padding: 20px;
 }
 div{
-    background-color: #a1b5cb;
+    background-color: #14021D;
 }
 h1, h3{
     display: inline;
+}
+
+.btn-dark{
+    background-color: #784592;
 }

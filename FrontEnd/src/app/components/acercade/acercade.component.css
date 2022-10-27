@@ -2,27 +2,29 @@
     padding: 20px;
 }
 div{
-    background-color:#a1b5cb;
+    background-color:#14021D;
     text-align: center;
 } 
 
 /*Estilo etiqueta nombre*/
 #nombre{
     font-weight: bold;
-    margin-top: 30%;
+    margin-top: 50%;
+
 }
 
 /*Estilo de la foto fotoperfil*/
 @media (min-width: 576px){
     #fotoperfil{
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
+        box-shadow: 3px 3px 3px #784592;
     }
 
     .descripcion{
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
 }
 @media (max-width: 575px){
@@ -30,7 +32,7 @@ div{
         position: absolute;
         width: 30%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
+        box-shadow: 3px 3px 3px #784592;
         left: 33%;
         top: 950px;
     }

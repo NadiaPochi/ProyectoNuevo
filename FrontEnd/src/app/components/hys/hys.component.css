@@ -1,4 +1,14 @@
 .row{
-    background-color: #a1b5cb;
+    background-color: #14021D;
     padding: 20px;
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-dark{
+    background-color: #784592;
 }

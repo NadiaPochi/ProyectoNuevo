@@ -4,7 +4,7 @@ import { FormsModule }   from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { AcercadeComponent } from './components/acercade/acercade.component';
+import { AcercaDeComponent } from './components/acercade/acercade.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
@@ -22,16 +22,17 @@ import { EditExperienciaComponent } from './components/experiencia/edit-experien
 import { NeweducacionComponent } from './components/educacion/neweducacion.component';
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { EditAcercaDeComponent } from './components/acercade/edit-acerca-de.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
+import { EditSkillComponent } from './components/hys/edit-skill.component';
+import { NewSkillComponent } from './components/hys/new-skill.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    AcercadeComponent,
+    AcercaDeComponent,
     BannerComponent,
     EducacionComponent,
     ExperienciaComponent,
@@ -45,7 +46,8 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     EditExperienciaComponent,
     NeweducacionComponent,
     EditeducacionComponent,
-    EditAcercaDeComponent
+    EditSkillComponent,
+    NewSkillComponent
   ],
   imports: [
     BrowserModule,

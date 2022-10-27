@@ -1,22 +1,16 @@
-<div>
-    <button type="button" class="btn btn-primary" routerLink="/editacercade/1" *ngIf="isLogged">
-        Editar persona
-    </button>
-</div>
-
 <div class="row">
         
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <img src={{persona.img}} class="img-fluid" id="fotoperfil">
+        <img src= "../../../assets/fotoperfil.jpg" class="img-fluid" id="fotoperfil">
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <p id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
-        <p>Full Stack Developed Jr</p>
+        <p id="nombre" class="text-light">{{persona.nombre}}{{persona.apellido}} Nadia Yanina Porciani</p>
+        <p class="text-light">Full Stack Developed Jr</p>
     </div>
-    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 descripcion">
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 descripcion ">
       <span>
-         <h1>Acerca de mí</h1>
-         <p>{{persona.descripcion}}</p>
+         <h1 class="text-light">Acerca de mí</h1>
+         <p class="text-light">{{persona.descripcion}} Recien incursionando en el mundo de la programación, estos son mis primeros pasos de un gran camino, siempre dando lo mejor de mí. </p>
       </span>
     </div>
 </div>
